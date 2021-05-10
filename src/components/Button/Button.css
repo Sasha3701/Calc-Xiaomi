@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.buttonSign {
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    border: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+}
+
+.buttonSign:active {
+    font-size: 28px;
+}
+.buttonSign:hover {
+    font-size: 28px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.sign {
+    color: orangered;
+}
+
+.equally {
+    background-color: orangered;
+    color: white;
+}
+
+.equally:active {
+    background-color: orangered;
+    color: white;
+    opacity: 0.5;
+}
+.clear {
+    grid-area: clear
+}
+.divide {
+    grid-area: divide
+}
+.multi {
+    grid-area: multi
+}
+.sub {
+    grid-area: sub
+}
+.add {
+    grid-area: add
+}
+.equa {
+    grid-area: equa
+}
+.per {
+    grid-area: per
+}
+.del {
+    grid-area: del
+}
+.nine {
+    grid-area: nine
+}
+.eight {
+    grid-area: eight
+}
+.seven {
+    grid-area: seven
+}
+.six {
+    grid-area: six
+}
+.five {
+    grid-area: five
+}
+.four {
+    grid-area: four
+}
+.three {
+    grid-area: three
+}
+.two {
+    grid-area: two
+}
+.one {
+    grid-area: one
+}
+.zero {
+    grid-area: zero
+}
+.comma {
+    grid-area: comma
+}
+.plug {
+    grid-area: plug
+}

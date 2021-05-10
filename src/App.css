@@ -1,0 +1,54 @@
+.input {
+    display: grid;
+    grid-template-areas:
+    "clear del per divide"
+    "seven eight nine multi"
+    "four five six sub"
+    "one two three add"
+    "plug zero comma equa";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.buttonTheme {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  min-width: 80px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px gray;
+}
+.buttonTheme:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
